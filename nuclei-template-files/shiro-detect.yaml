@@ -1,0 +1,20 @@
+id: shiro-detect
+
+info:
+  name: shiro detect
+  author: Lhaihai
+  severity: info
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}/"
+    redirects: true
+    max-redirects: 3
+    headers:
+        Cookie: rememberMe=123
+    matchers:
+      - type: word
+        words:
+          - "rememberMe=deleteMe"
+        part: header
