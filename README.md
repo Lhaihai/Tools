@@ -17,3 +17,7 @@ typora 自动上传图片到 imgur
 ### c2ip
 
 把C段IP和端口输出为ip列表，方便导入其它工具使用
+
+### BehinderWebShellConnector
+
+批量连接冰蝎脚本
