@@ -47,7 +47,7 @@ def push_DingMes(content):
         #     "content": content
         # },
         "at": {
-            # "atMobiles": ["13207488983"],
+            # "atMobiles": ["13288888888"],
             # "isAtAll": True
         }
  }
